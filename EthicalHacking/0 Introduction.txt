@@ -1,0 +1,154 @@
+/*  (ly) : Introduction to Ethical Hacking  */
+
+ Today, cyber threats are everywhere, and are becoming more aggressive, complex and sophisticated.
+- Enter the white hat hacker, who protects users by diligently seeking out the weak spots so a company can fine-tune their security posture. 
+- In this course, I'll explore today's threat landscape, dissecting the top attack vectors and motives for attacks.
+- I'll define ethical hacking and compare the differences between white, grey, and black hat hackers.
+- Finally, I'll explain the importance of structured ethical hacking in an organization.
+
+ The goal of the ethical hacking series is to help system administrators understand how to better protect the assets they manage. 
+ I'll focus on the concepts of ethical hacking in order to explain why it's essential in any organization's overall security framework.
+  Do not investigate individuals, websites, servers, or conduct any illegal activities on any system you do not have permission to analyze.
+  
+
+Companies are faced with numerous challenges to protect the infrastructure.
+Network environments are complex and can include bring your own device, bring your own application, 
+Cloud computing, virtualization, social media and a new technology that is added to the mix on a daily basis.
+Coupled with the challenges, cyber threats are becoming more aggressive, complex and sophisticated.
+The attacks can include cyber crime, hactivism and espionage.
+
+Every organization and government is a potential target including Sony, Fox, Lockheed Martin, law enforcement, 
+Target and many others. The attacks are highly organized by skilled and motivated players and have resulted in
+massive amounts of sensitive data such as credit cards, medical data, intellectual property, passwords, and
+state secrets being exposed. The increased complexity of current cyber attacks correlates to the shift
+towards more aggressive and coordinated mechanisms.
+
+In addition, the attacker profile has changed. Reported hacking activity began as early as 1971 when John Draper 
+also known as Captain Crunch developed blue box phone phreaking which is achieved by using frequencies or
+tones to manipulate telephone switching hardware in order to make phone calls. In the 1980s, an old school
+hacking group called the PHIRM was founded and published guides related to breaching systems and obtaining information.
+
+In March 1986, Dark Creaper of the PHIRM wrote How to Get Anything on Anybody. 
+And in 1989, he published a guide hacking Bank of America's home banking system.
+The escalation and hacking activity brought a lot of scrutiny, farewell arrests, which led to the group's disbanding.
+In 1988, graduate student Robert Morris of Cornell University launched a worm on the fledging ARPANET which 
+is a precursor to the internet.
+
+Morris managed to take down about 6000 network government and university systems.
+Morris was discharged from Cornell, served three years probation, and was fined $10,000. 
+Soon afterward, cybercrime began to intensify. The computer emergency response team or CERT is created by DARPA 
+to dress network security. And congress passed the Computer Fraud and Abuse Act in 1989 making it a 
+crime to break into computer systems.
+
+The first DEF CON conference took place in Las Vegas in 1993 right after the internet became public.
+And the first conference was meant to be a party to say goodbye to hackers and freakers bulletin board systems or BBS.
+But the gathering was so popular, it is now an annual event. In May 2000, the I Love You virus or 
+Love Bug infected millions of computers around the world within hours of its release.
+
+The virus was sent as an email attachment with I Love You in a subject line. 
+When opened, the message was resent to everyone in the recipients Microsoft Outlook address book.
+In addition, the Love Bug ate through every JPEG, MP3, and other files on the recipient's hard disk. 
+And it's considered to be one of the most destructive worms in history. 
+After the attacks on 9/11, the Department of Homeland Security was created and is responsible for 
+protecting the United States IT infrastructure.
+
+One of the key components is the EINSTEIN program. An intrusion detection system that monitors the internet 
+for unauthorized traffic. You can find out more about the EINSTEIN system on the Department of Homeland Security's website.
+Despite the pervasiveness of firewalls, intrusion detection systems, anti-malware and layered security technologies,
+attackers are able to penetrate our fragile data with the scale of a surgeon's blade.
+Companies fall victim to attacks for a number of reasons.
+
+Mostly do vulnerabilities which include configuration errors, unpatched systems, human error or software flaws.
+Companies are hyper vigilant and recognize the importance of human expertise in a complex security architecture. 
+As a result, organizations need to continually assess the security measures in place in order to defend against 
+ongoing threats. Ethical hacking is an important element of a comprehensive security plan.
+
+As ethical hacking provides a mechanism to test the computer system or a network with a purpose of locating vulnerabilities
+that could potentially be exploited so they can be addressed.
+
+
+
+ An attack vector is a mechanism by which someone gains unlawful entry into a system and can include email, webpages,
+ wireless, automobiles, and the user. 
+ The goal is to deliver a malicious payload or other malicious acts by taking advantage of system vulnerabilities or
+ known weak spots to gain entry. Old school viruses have been declining. 
+ However, serious malware makers have progressed to more aggressive attacks using Trojan horses, rootkits, and spyware.
+ Most methods involve programming yet some involve social engineering.
+
+An email and email attachments are one of the original methods to send malware spam and bogus links and continue to
+improve in sophistication. Email attachments are handy and are used by just about everyone. 
+While antivirus scans are tune to scan for viruses in attachments, modern day malware is polymorphic in nature 
+and can change to elude detection. To minimize this attack vector, keep antivirus updated and educate users to
+use caution when opening attachments.
+
+Webpages and pop-ups take advantage of the ability browsers have to access various programming languages such as 
+JavaScript, ActiveX and macros. When clicked, the malware can install spyware, adware, hijackers, dialers or Trojans 
+or other malware. The best defense is to stay away from risky websites. Instant messaging, internet relay chat and 
+peer to peer file sharing programs. Many times start with the user having to install custom software to enable the 
+service to work.
+
+Unfortunately, this makes your machine vulnerable to an attack. As when the install takes place, the user generally
+agrees to an end user license agreement which may include wording that allows additional function or add-ons such as
+an app that allows BIT claim on your machine. Avoid these services. But if they must be used, read the end user license
+agreement and make sure malware protection is used with egress filtering to block communication with malicious websites.
+
+Wireless networks are pervasive in today's world and provides an attractive attack vector. The 802.11 standard or Wi-Fi
+is characteristically insecure and will continue to be more vulnerable to attack than a wired network and that wireless 
+is unbounded media. Protect against attacks by minimizing the vulnerabilities by taking advantage of the security 
+mechanisms available. A recent attack vector includes the automobile. Most modern vehicles can be hacked.
+
+Research is revealing how fragile modern vehicles, computerized systems can be. As accessing a car's internal network 
+can infiltrate computer control systems including brakes and engine. Car manufactures and anti-malware companies are 
+looking into vulnerabilities to prevent a hacker from taking control of a number of functions such as brakes, display,
+radio, and windshield wipers. Watch and respond to manufacturer's recall notification. In addition, because many attacks
+are done through remote connections, be cautious and avoid connecting to a road wireless network which could allow an 
+attacker to steal credentials for remote mobile apps.
+
+The most vulnerable attack vector is the user which is the weakest link in any system. Over 600 million people worldwide 
+have fallen victim to some sort of cyber crime. That includes online scams, malware and phishing attacks, credit card 
+fraud, compromised social-networking profiles, and explicit content. Although humans can be our weakest link, steps 
+can be taken to avoid falling prey to cyber crime and protect your data offline and online.
+
+
+Information security is founded on an overall organizational strategy based on risk analysis. 
+The goal is to create, implement, monitor, assess, maintain, and continuously improve a security posture.
+Awareness of the various attacks is an important step in this process. Different types of attacks can threaten 
+an organization, such as physical, social engineering, brute force, and others. An attack can result in theft of
+information, exposure to sensitive information.
+
+Consequences can range from loss of productivity, damage to the business reputation, and possible legal implications.
+Physical security is often overlooked by an organization. However, any object can be stolen, damaged, or destroyed by 
+an unauthorized individual. Many attacks are linked to social engineering. Examples include gaining unauthorized access
+to a facility, cutting a fiber-optic backbone, breaking into secure spaces, or stealing equipment, such as a computer or
+hand-held device, removing RAM or components from a desktop or laptop, or even improper disposal or destruction of 
+sensitive organizational information.
+
+Best practices for physical computer security involves securing access to buildings and rooms, such as a server room, 
+by locks or access cards, and use surveillance. Audit services, users, and administrators to verify compliance 
+with security policies. Secure any backup media, and disable drives. Protect your industrial printers, specifically 
+the hard drive. This can be a gold mine for identity theft. Industrial printers are commonly overlooked.
+
+Large printers can print, copy, scan, and fax documents. The range of functions is because it's not just a printer, 
+it's a computer that has memory, a processor, and data storage. Drives should use encryption while in use, and wiped
+before disposal. A used printer many times is sold for as little as $300, and can hold valuable information on a company's
+assets. Social engineering is a con game, relying on influence, social skills, and human interaction to obtain information
+about an organization or computer systems.
+
+Malware is a term used to refer to a variety of forms of malicious software, including viruses, worms, Trojan horses, 
+ransomware, or spyware. It could be in the form of scripts, executables, or other active content from the web, such as 
+animated GIFs, embedded objects, or ActiveX applications. Two main types of malware include viruses and worms. A virus
+can self-replicate and spread to other programs within the system. A virus has to have some way to travel to another host,
+such as an email attachment.
+
+A worm is like a virus, however, it can spread without any help from a transport agent such as an email attachment, and
+can replicate through a system, consuming resources such as memory and processing. Find a user's account's password, and 
+you will have the same rights as the user. A brute force attack will try all possible combinations of characters, such as 
+password guessing. A dictionary attack is a subset of brute force, and uses a list of common passwords, most likely using
+an automated software tool.
+
+Not all attacks are active. Reconnaissance attacks are passive, such as sniffing or scanning, and are done because of a
+need to discover information about a network. Denial of service; a denial of service attack is designed to disrupt a 
+service with so many requests, legitimate users are locked out. An example is a SIP flood. Session Initiation Protocol 
+is used to set up, maintain, and end sessions for communication protocols, such as Voiceover IP and instant messaging.
+
+With a SIP flood, the clients are flooded out with multiple invite message to take down the phone.
